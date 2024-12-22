@@ -5,8 +5,8 @@ if (process.env.NODE_ENV !== 'production') {
   
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 5000;
-console.log(process.env);
+const port = process.env.PORT;
+
 app.get("/", (req, res)=>{
     res.send("This is the landing page");
 });
