@@ -14,7 +14,7 @@ app.get("/about", (req, res)=>{
     res.send("This is the about page. Updated. Checked");
 })
 app.get("/contact", (req, res)=>{
-    res.send("Contact page");
+    res.send("Contact page. Updated");
 })
 
 
