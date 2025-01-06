@@ -8,13 +8,13 @@ const app = express();
 const port = process.env.PORT;
 
 app.get("/", (req, res)=>{
-    res.send("This is the landing page. Landing page updated");
+    res.send("This is the landing page.");
 });
 app.get("/about", (req, res)=>{
-    res.send("This is the about page. Updated. Checked");
+    res.send("This is the about page.");
 })
 app.get("/contact", (req, res)=>{
-    res.send("Contact page. Updated");
+    res.send("Contact page.");
 })
 
 
