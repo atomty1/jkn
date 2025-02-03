@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.get("/", (req, res)=>{
-    res.send("This is a new landing page.");
+    res.send("Hi there.");
 });
 app.get("/about", (req, res)=>{
     res.send("This is the about page.");
