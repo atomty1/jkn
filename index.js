@@ -15,6 +15,9 @@ app.get("/about", (req, res)=>{
 })
 app.get("/contact", (req, res)=>{
     res.send("Contact page.");
+});
+app.get("/welcome", (req, res)=>{
+    res.send("Welcome page.");
 })
 
 
